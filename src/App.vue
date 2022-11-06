@@ -3,9 +3,6 @@
 import FormComp from './components/FormComp.vue';
 
   export default{
-    data() {
-        return {};
-    },
     components: { 
       FormComp 
     }
@@ -14,17 +11,20 @@ import FormComp from './components/FormComp.vue';
 </script>
 
 <template>
-  <div>
+  <div class="main">
 
-    <h1>
-      Learn to code by watching others
-    </h1>
-
-    <p>
-      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-      but understanding how developers think is invaluable. 
-    </p>
-
+    <div class="header">
+      
+      <h1>
+        Learn to code by watching others
+      </h1>
+      
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+      
+    </div>
 
 
     <FormComp></FormComp>
@@ -33,5 +33,5 @@ import FormComp from './components/FormComp.vue';
 </template>
 
 <style lang="scss">
-
+  
 </style>
