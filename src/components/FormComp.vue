@@ -7,7 +7,7 @@
             ...mapState(['fName','email','pass','lName'])
         },
         methods:{
-            ...mapMutations(['add'])
+            ...mapMutations(['check'])
         }
     }
 </script>
@@ -20,7 +20,7 @@
         </div>
         <form action="#" class="form">
             <label for="firstname">First Name</label>
-            <input id="firstname" type="text" required>
+            <input @input="checkName" id="firstname" type="text" required>
 
             <label for="lastname">Last Name </label>
             <input id="lastname" type="text" required>

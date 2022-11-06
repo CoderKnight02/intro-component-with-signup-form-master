@@ -29,7 +29,6 @@ import FormComp from './components/FormComp.vue';
 
     <FormComp></FormComp>
 
-    <button @click="add">Press: {{ fName }}</button> 
   </div>
 </template>
 
