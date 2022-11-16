@@ -1,4 +1,15 @@
 .header{
-    flex-basis: 50%;
+    flex-basis: 40%;
 
 }
+
+.header_text{
+    font-size: clamp(1.2rem, 3vw, 1.1rem);
+
+    @media (max-width: 850px){
+        text-align: center;
+        margin-inline: auto;
+        width: min(100%, 500px);
+    }
+}
+
