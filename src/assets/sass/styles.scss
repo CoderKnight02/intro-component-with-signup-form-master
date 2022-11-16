@@ -1,6 +1,7 @@
-@use '_fromComp.scss';
 @use '_globals.scss';
+@use '_fromComp.scss';
 @use '_headerComp.scss';
+
 
 .main{
     display: flex;
@@ -8,7 +9,7 @@
     align-items: center;
     gap: 10px;
     min-height: 100vh;
-    
+
     @media (max-width: 850px){
         flex-direction: column;
     }
