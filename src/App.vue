@@ -14,14 +14,14 @@ import HeaderComp from './components/HeaderComp.vue';
 </script>
 
 <template>
-  <div class="main">
+  <main class="main">
 
     <HeaderComp></HeaderComp>     
 
 
     <FormComp></FormComp>
 
-  </div>
+  </main>
 </template>
 
 <style src="./assets/sass/styles.scss" lang="scss">
