@@ -1,0 +1,11 @@
+@use '_fromComp.scss';
+@use '_globals.scss';
+@use '_headerComp.scss';
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-height: 100vh;
+}

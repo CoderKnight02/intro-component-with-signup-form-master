@@ -1,10 +1,13 @@
 
 <script>
 import FormComp from './components/FormComp.vue';
+import HeaderComp from './components/HeaderComp.vue';
 
   export default{
-    components: { 
-      FormComp 
+
+    components: {
+      FormComp,
+      HeaderComp
     }
 }
 
@@ -13,18 +16,7 @@ import FormComp from './components/FormComp.vue';
 <template>
   <div class="main">
 
-    <div class="header">
-      
-      <h1>
-        Learn to code by watching others
-      </h1>
-      
-      <p>
-        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-        but understanding how developers think is invaluable. 
-      </p>
-      
-    </div>
+    <HeaderComp></HeaderComp>     
 
 
     <FormComp></FormComp>
@@ -32,6 +24,6 @@ import FormComp from './components/FormComp.vue';
   </div>
 </template>
 
-<style lang="scss">
-  
+<style src="./assets/sass/styles.scss" lang="scss">
 </style>
+

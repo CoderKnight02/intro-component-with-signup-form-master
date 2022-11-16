@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    background-blend-mode: color-dodge;
+    // background-blend-mode: color-burn;
+    margin: 0;
+    min-height: calc(100vh - 1px);
+    color: white;
+
+}
