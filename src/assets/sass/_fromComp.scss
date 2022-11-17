@@ -2,6 +2,8 @@ $color: black;
 
 input{
     border: none;
+    font-weight: bold;
+    color: rgba(31, 31, 31, 0.779);
 }
 
 .box_sadow{
@@ -36,6 +38,7 @@ input{
     border: 1px solid rgb(45, 45, 45);
     border-radius: 3px;
     margin-bottom: 20px;
+    
 }
 .red{
     border-color: hsl(0, 100%, 74%);
