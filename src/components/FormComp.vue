@@ -25,7 +25,7 @@
             
             <div class="input_cont" :class="{'red': inputEmail}">
                 <input placeholder="Email" id="email" type="text" v-model="email" required> 
-                <img v-show="inputPass"  src="../assets/images/icon-error.svg" alt="Error!!!">
+                <img v-show="inputEmail"  src="../assets/images/icon-error.svg" alt="Error!!!">
             </div>
             <p v-show="inputEmail">Looks like this is not an email</p>
 
