@@ -18,7 +18,7 @@
 
             <div class="input_cont" :class="{'red': inputlName}">
                 <input  id="lastname" placeholder="Last Name" type="text" v-model="lName" required> 
-                <img v-show="inputPass" src="../assets/images/icon-error.svg" alt="Error!!!">
+                <img v-show="inputlName" src="../assets/images/icon-error.svg" alt="Error!!!">
             </div>
             <p v-show="inputlName">Last Name cannot be empty</p>
             
