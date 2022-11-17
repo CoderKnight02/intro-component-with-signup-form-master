@@ -17,8 +17,8 @@ body{
 }
 
 h1{
-    font-weight: bold;
     font-size: clamp(2rem, 4vw ,3rem);
+    font-weight: 900;
 }
 
 @media (max-width:850px){
